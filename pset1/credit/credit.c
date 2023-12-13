@@ -1,6 +1,6 @@
 #include <cs50.h>
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
 int Luhn_algorithm_valid(long number);
 int find_digit(long number, int i);
@@ -22,7 +22,7 @@ int main(void)
     {
         if (american_express_valid(number))
         {
-            printf("AMERICAN EXPRESS\n");
+            printf("AMEX\n");
         }
         else if (mastercard_valid(number))
         {
@@ -41,7 +41,6 @@ int main(void)
     {
         printf("INVALID\n");
     }
-
 }
 
 int american_express_valid(long number)
@@ -57,11 +56,8 @@ int mastercard_valid(long number)
     int size = get_size(number);
     int first_digit = find_digit(number, size);
     int second_digit = find_digit(number, size - 1);
-    return (size == 16 && first_digit == 5 && (second_digit == 1 ||
-                                               second_digit == 2 ||
-                                               second_digit == 3 ||
-                                               second_digit == 4 ||
-                                               second_digit == 5 ));
+    return (size == 16 && first_digit == 5 &&
+            (second_digit == 1 || second_digit == 2 || second_digit == 3 || second_digit == 4 || second_digit == 5));
 }
 
 int visa_valid(long number)
@@ -94,7 +90,6 @@ int Luhn_algorithm_valid(long number)
     return sum % 10 == 0;
 }
 
-
 int find_digit(long number, int i)
 {
     if (i > get_size(number))
@@ -105,9 +100,8 @@ int find_digit(long number, int i)
     {
         return number % 10;
     }
-    return ((number % (long long) pow(10, i))) / (long long) pow(10, i-1);
+    return ((number % (long long) pow(10, i))) / (long long) pow(10, i - 1);
 }
-
 
 int get_size(long number)
 {
