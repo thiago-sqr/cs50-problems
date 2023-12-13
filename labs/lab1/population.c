@@ -15,7 +15,7 @@ int main(void)
     {
         final = get_int("End size: ");
     }
-    while (final <= initial);
+    while (final < initial);
 
     population = initial;
 
