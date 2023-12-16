@@ -12,7 +12,7 @@ int main(int argc, string argv[])
     string ptxt, ctxt;
     int key;
 
-    if (argc !> 2 || !only_digits(argv[1]))
+    if (argc != 2 || !only_digits(argv[1]))
     {
         printf("Usage: ./caesar key\n");
         return 1;
