@@ -12,7 +12,7 @@ int main(int argc, string argv[])
 {
     string ptxt, ctxt, key;
 
-    if (argc > 2 || argc == 1)
+    if (argc != 2)
     {
         printf("Usage: ./substitution key\n");
         return 1;
