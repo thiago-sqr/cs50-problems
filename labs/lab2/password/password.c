@@ -18,7 +18,6 @@ int main(void)
     }
 }
 
-// TODO: Complete the Boolean function below
 bool valid(string password)
 {
     int upper = 0, lower = 0, number = 0, symbol = 0;

@@ -1,25 +1,42 @@
 # cs50-problems
-Resolvendo os problemas propostos pelo curso CS50x (2023) da Universidade de Harvard
+Resolvendo os problemas propostos pelo curso CS50x (2023) da Universidade de Harvard.
 
-# 1. C
-### pset1
-- hello : pergunta o seu nome o cumprimenta com ``hello, "seu nome"``;
-- mario : dada uma altura, imprime uma pirâmide de cerquilhas (#)
-- cash : calcula a quantidade de moedas de maiores valores possíveis para um troco (25, 10, 5 e 1 cents);
-- credit : verifica se um número de cartão de crédito é válido e informa a bandeira do cartão (Amex, Mastercard ou Visa).
-### lab
-- population : dados a população de lhamas inicial e final, calcula a quantidade de anos necessários para o crescimento.
-### practice problems
-- half : dados o preço, a taxa de venda e a percentagem de gorjeta, calcula quanto será a conta dividida para dois;
-- prime : imprime todos os números primos conforme o alcance mínimo e máximo informado;
-# 2. Arrays 
-### pset2
-- bulbs : recebe uma mensagem e converte para binário, imprimindo 0s e 1s como emojis simulando lâmpadas;
-- caesar : utilizando um número como argumento na CLI, lê uma mensagem e a codifica com cifra de César a partir da chave informada;
-- substitution : utilizando um alfabeto em qualquer ordem como argumento na CLI, lê uma mensagem e a codifica substituindo as letras da frase pela respectiva letra na nova ordem alfabética;
-- ( . . . )
-### lab
-- scrabble : dois jogadores escrevem uma palavra, cada letra possui uma pontuação pré-definida. Quem tiver mais pontos vence;
-### practice problems
-- hours : calcula a quantidadede horas total ou média em um dado período de semanas cursando CS50;
+[Site do curso](https://cs50.harvard.edu/x/2023/)
+
+## Honestidade acadêmica
+
+Eu adiro estritamente à política de honestidade acadêmica do curso, que destaca a importância do esforço individual e da integridade. Todas as soluções e códigos neste repositório refletem meu próprio trabalho e compreensão. 
+
+Para obter informações detalhadas sobre a política, consulte a página dedicada à [honestidade acadêmica](https://cs50.harvard.edu/x/2023/honesty/) no site do CS50.
+
+## Estrutura do repositório
+
+### pset1 : C
+[detalhes dos problemas](https://cs50.harvard.edu/x/2023/psets/1/)
+- [hello.c](/pset1/hello/hello.c) : Programa que imprime hello e o seu nome.
+- [mario.c](/pset1/mario) : Implementações (menos e mais complicadas) da pirâmide do Mário.
+- [cash.c](/pset1/cash/cash.c) : Programa que calcula quantas moedas serão utilizadas para um troco.
+- [credit.c](/pset1/credit/credit.c) : Programa que informa qual a bandeira de um cartão de crédito.
+
+### pset2 : Arrays
+[detalhes dos problemas](https://cs50.harvard.edu/x/2023/psets/2/)
+- [bulbs.c](/pset2/bulbs/bulbs.c) : Codificação de mensagens em binário usando sequências de lâmpadas.
+- [caesar.c](/pset2/caesar/caesar.c) : Implementação do algoritmo da cifra de César.
+- [substitution.c](/pset2/substitution/substitution.c) : Implementação da cifra de substituição.
+- [wordle.c](/pset2/wordle/wordle.c) : Jogo de advinhar palavras, semelhante ao famoso [Wordle](https://www.nytimes.com/games/wordle/index.html)
+
+### ( . . . )
+
+### labs
+Cada subdiretório dentro da pasta "labs" abriga os problemas de laboratório associados a cada semana do curso CS50, juntamente com os "practice problems" (pp), que consistem em exercícios opcionais propostos.
+- **lab1**
+  - [population.c](/labs/lab1/population/population.c) (lab) : Programa que calcula o tempo de crescimento de uma população.
+  - [debug.c]() (pp) : ( . . . )
+  - [half.c](/labs/lab1/half/half.c) (pp) : Programa que calcula a conta de restautante e divide para duas pessoas.
+  - [prime.c](/labs/lab1/prime/prime.c) (pp) : Implementação da contagem de números primos.
+- **lab2**
+  - [scrabble.c](/labs/lab2/scrabble/scrabble.c) (lab) : Jogo de pontuação de palavras.
+  - [hours.c](/labs/lab2/hours/hours.c) (pp) : Programa que calcula as horas totais ou horas médias cursadas.
+  - [no-vowels.c](/labs/lab2/no-vowels/no-vowels.c) (pp) : Programa que substitui as vogais das palavras, i.e. l33tsp36k.
+  - [password.](/labs/lab2/password/password.c) (pp) : Verificação da qualidade de senhas.
 - ( . . . )
