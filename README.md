@@ -22,7 +22,7 @@ Resolvendo os problemas propostos pelo curso CS50x (2023) da Universidade de Har
 ### labs
 Cada subdiretório dentro da pasta "labs" abriga os problemas de laboratório associados a cada semana do curso CS50, juntamente com os "practice problems" (pp), que consistem em exercícios opcionais propostos.
 - **lab1**
-  - [population.c](/labs/labs1/population/population.c) (lab) : Programa que calcula o tempo de crescimento de uma população.
+  - [population.c](/labs/lab1/population/population.c) (lab) : Programa que calcula o tempo de crescimento de uma população.
   - [debug.c]() (pp) : ( . . . )
   - [half.c](/labs/lab1/half/half.c) (pp) : Programa que calcula a conta de restautante e divide para duas pessoas.
   - [prime.c](/labs/lab1/prime/prime.c) (pp) : Implementação da contagem de números primos.
@@ -31,3 +31,4 @@ Cada subdiretório dentro da pasta "labs" abriga os problemas de laboratório as
   - [hours.c](/labs/lab2/hours/hours.c) (pp) : Programa que calcula as horas totais ou horas médias cursadas.
   - [no-vowels.c](/labs/lab2/no-vowels/no-vowels.c) (pp) : Programa que substitui as vogais das palavras, i.e. l33tsp36k.
   - [password.](/labs/lab2/password/password.c) (pp) : Verificação da qualidade de senhas.
+- ( . . . )
