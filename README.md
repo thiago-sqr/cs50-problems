@@ -1,5 +1,13 @@
 # cs50-problems
-Resolvendo os problemas propostos pelo curso CS50x (2023) da Universidade de Harvard
+Resolvendo os problemas propostos pelo curso CS50x (2023) da Universidade de Harvard.
+
+[Site do curso](https://cs50.harvard.edu/x/2023/)
+
+## Honestidade acadêmica
+
+Eu adiro estritamente à política de honestidade acadêmica do curso, que destaca a importância do esforço individual e da integridade. Todas as soluções e códigos neste repositório refletem meu próprio trabalho e compreensão. 
+
+Para obter informações detalhadas sobre a política, consulte a página dedicada à [honestidade acadêmica](https://cs50.harvard.edu/x/2023/honesty/) no site do CS50.
 
 ## Estrutura do repositório
 
