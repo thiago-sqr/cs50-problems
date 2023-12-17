@@ -1,42 +1,42 @@
 # cs50-problems
-Resolvendo os problemas propostos pelo curso CS50x (2023) da Universidade de Harvard.
+Solving the problem sets proposed by Harvard University's CS50x course (2023).
 
-[Site do curso](https://cs50.harvard.edu/x/2023/)
+[Course Website](https://cs50.harvard.edu/x/2023/)
 
-## Honestidade acadêmica
+## Academic Honesty
 
-Eu adiro estritamente à política de honestidade acadêmica do curso, que destaca a importância do esforço individual e da integridade. Todas as soluções e códigos neste repositório refletem meu próprio trabalho e compreensão. 
+I strictly adhere to the course's academic honesty policy, emphasizing the importance of individual effort and integrity. All solutions and code in this repository reflect my own work and understanding.
 
-Para obter informações detalhadas sobre a política, consulte a página dedicada à [honestidade acadêmica](https://cs50.harvard.edu/x/2023/honesty/) no site do CS50.
+For detailed information on the policy, please refer to the dedicated [academic honesty page](https://cs50.harvard.edu/x/2023/honesty/) on the CS50 website.
 
-## Estrutura do repositório
+## Repository Structure
 
-### pset1 : C
-[detalhes dos problemas](https://cs50.harvard.edu/x/2023/psets/1/)
-- [hello.c](/pset1/hello/hello.c) : Programa que imprime hello e o seu nome.
-- [mario.c](/pset1/mario) : Implementações (menos e mais complicadas) da pirâmide do Mário.
-- [cash.c](/pset1/cash/cash.c) : Programa que calcula quantas moedas serão utilizadas para um troco.
-- [credit.c](/pset1/credit/credit.c) : Programa que informa qual a bandeira de um cartão de crédito.
+### pset1: C
+[Problem details](https://cs50.harvard.edu/x/2023/psets/1/)
+- [hello.c](/pset1/hello/hello.c) : Program that prints "hello" and your name.
+- [mario.c](/pset1/mario) : Implementations (less and more complex) of the Mario pyramid.
+- [cash.c](/pset1/cash/cash.c) : Program that calculates the number of coins for change.
+- [credit.c](/pset1/credit/credit.c) : Program that identifies the credit card issuer.
 
-### pset2 : Arrays
-[detalhes dos problemas](https://cs50.harvard.edu/x/2023/psets/2/)
-- [bulbs.c](/pset2/bulbs/bulbs.c) : Codificação de mensagens em binário usando sequências de lâmpadas.
-- [caesar.c](/pset2/caesar/caesar.c) : Implementação do algoritmo da cifra de César.
-- [substitution.c](/pset2/substitution/substitution.c) : Implementação da cifra de substituição.
-- [wordle.c](/pset2/wordle/wordle.c) : Jogo de advinhar palavras, semelhante ao famoso [Wordle](https://www.nytimes.com/games/wordle/index.html)
+### pset2: Arrays
+[Problem details](https://cs50.harvard.edu/x/2023/psets/2/)
+- [bulbs.c](/pset2/bulbs/bulbs.c) : Encoding messages in binary using sequences of bulbs.
+- [caesar.c](/pset2/caesar/caesar.c) : Implementation of the Caesar cipher algorithm.
+- [substitution.c](/pset2/substitution/substitution.c) : Implementation of the substitution cipher.
+- [wordle.c](/pset2/wordle/wordle.c) : Word-guessing game, similar to the famous [Wordle](https://www.nytimes.com/games/wordle/index.html).
 
 ### ( . . . )
 
 ### labs
-Cada subdiretório dentro da pasta "labs" abriga os problemas de laboratório associados a cada semana do curso CS50, juntamente com os "practice problems" (pp), que consistem em exercícios opcionais propostos.
+Each subdirectory within the "labs" folder contains lab problems associated with each week of the CS50 course, along with "practice problems" (pp), which are optional exercises.
 - **lab1**
-  - [population.c](/labs/lab1/population/population.c) (lab) : Programa que calcula o tempo de crescimento de uma população.
-  - [debug.c]() (pp) : ( . . . )
-  - [half.c](/labs/lab1/half/half.c) (pp) : Programa que calcula a conta de restautante e divide para duas pessoas.
-  - [prime.c](/labs/lab1/prime/prime.c) (pp) : Implementação da contagem de números primos.
+  - [population.c](/labs/lab1/population/population.c) (lab): Program that calculates the population growth time.
+  - [debug.c]() (pp): For becoming familiar with C syntax and debugging programs
+  - [half.c](/labs/lab1/half/half.c) (pp): Program that calculates the restaurant bill and splits it for two people.
+  - [prime.c](/labs/lab1/prime/prime.c) (pp): Implementation of prime number counting.
 - **lab2**
-  - [scrabble.c](/labs/lab2/scrabble/scrabble.c) (lab) : Jogo de pontuação de palavras.
-  - [hours.c](/labs/lab2/hours/hours.c) (pp) : Programa que calcula as horas totais ou horas médias cursadas.
-  - [no-vowels.c](/labs/lab2/no-vowels/no-vowels.c) (pp) : Programa que substitui as vogais das palavras, i.e. l33tsp36k.
-  - [password.](/labs/lab2/password/password.c) (pp) : Verificação da qualidade de senhas.
+  - [scrabble.c](/labs/lab2/scrabble/scrabble.c) (lab): Word-scoring game.
+  - [hours.c](/labs/lab2/hours/hours.c) (pp): Program that calculates total or average hours attended.
+  - [no-vowels.c](/labs/lab2/no-vowels/no-vowels.c) (pp): Program that substitutes vowels in words, i.e., leetspeak.
+  - [password.c](/labs/lab2/password/password.c) (pp): Password quality verification.
 - ( . . . )
