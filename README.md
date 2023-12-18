@@ -1,25 +1,16 @@
-# cs50-problems
+# CS50-problems
 Solving the problem sets proposed by Harvard University's CS50x course (2023): Introduction to Computer Science.
-
-[Course Website](https://cs50.harvard.edu/x/2023/)
-
-## Academic Honesty
-
-I strictly adhere to the course's academic honesty policy, emphasizing the importance of individual effort and integrity. All solutions and code in this repository reflect my own work and understanding.
-
-For detailed information on the policy, please refer to the dedicated [academic honesty page](https://cs50.harvard.edu/x/2023/honesty/) on the CS50 website.
 
 ## Repository Structure
 
 ### pset1: C
-[Problem details](https://cs50.harvard.edu/x/2023/psets/1/)
 - [hello.c](/pset1/hello/hello.c) : Program that prints "hello" and your name.
 - [mario.c](/pset1/mario) : Implementations (less and more complex) of the Mario pyramid.
 - [cash.c](/pset1/cash/cash.c) : Program that calculates the number of coins for change.
 - [credit.c](/pset1/credit/credit.c) : Program that identifies the credit card issuer.
 
 ### pset2: Arrays
-[Problem details](https://cs50.harvard.edu/x/2023/psets/2/)
+- [readability.c](/pset2/readability/readability.c) : Implementation of the Coleman-Liau index to gauge the understandability of a text.
 - [bulbs.c](/pset2/bulbs/bulbs.c) : Encoding messages in binary using sequences of bulbs.
 - [caesar.c](/pset2/caesar/caesar.c) : Implementation of the Caesar cipher algorithm.
 - [substitution.c](/pset2/substitution/substitution.c) : Implementation of the substitution cipher.
@@ -40,3 +31,15 @@ Each subdirectory within the "labs" folder contains lab problems associated with
   - [no-vowels.c](/labs/lab2/no-vowels/no-vowels.c) (pp): Program that substitutes vowels in words, i.e., leetspeak.
   - [password.c](/labs/lab2/password/password.c) (pp): Password quality verification.
 - ( . . . )
+
+## Course Info:
+Name: CS50’s Introduction to Computer Science
+[Course Website](https://cs50.harvard.edu/x/2023/)
+[CS50 Docs](https://cs50.readthedocs.io/)
+[CS50 Manual Pages for C](https://manual.cs50.io/)
+
+## Academic Honesty
+
+I strictly adhere to the course's academic honesty policy, emphasizing the importance of individual effort and integrity. All solutions and code in this repository reflect my own work and understanding.
+
+For detailed information on the policy, please refer to the dedicated [academic honesty page](https://cs50.harvard.edu/x/2023/honesty/) on the CS50 website.
