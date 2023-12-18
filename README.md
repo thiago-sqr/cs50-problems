@@ -1,5 +1,5 @@
 # cs50-problems
-Solving the problem sets proposed by Harvard University's CS50x course (2023).
+Solving the problem sets proposed by Harvard University's CS50x course (2023): Introduction to Computer Science.
 
 [Course Website](https://cs50.harvard.edu/x/2023/)
 
