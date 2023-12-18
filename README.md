@@ -35,8 +35,11 @@ Each subdirectory within the "labs" folder contains lab problems associated with
 
 ## Course Info:
 Name: CS50’s Introduction to Computer Science
+
 [Course Website](https://cs50.harvard.edu/x/2023/)
+
 [CS50 Docs](https://cs50.readthedocs.io/)
+
 [CS50 Manual Pages for C](https://manual.cs50.io/)
 
 ## Academic Honesty
