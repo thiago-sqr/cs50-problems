@@ -30,7 +30,8 @@ Each subdirectory within the "labs" folder contains lab problems associated with
   - [hours.c](/labs/lab2/hours/hours.c) (pp): Program that calculates total or average hours attended.
   - [no-vowels.c](/labs/lab2/no-vowels/no-vowels.c) (pp): Program that substitutes vowels in words, i.e., leetspeak.
   - [password.c](/labs/lab2/password/password.c) (pp): Password quality verification.
-- ( . . . )
+- **lab3**
+  - [temps.c](/labs/lab3/temps/) (pp): Program to practice *O*(n²) sorting algorithms;
 
 ## Course Info:
 Name: CS50’s Introduction to Computer Science

@@ -86,7 +86,6 @@ int main(int argc, string argv[])
         printf("Guess %i: ", i + 1);
 
         print_word(guess, wordsize, status);
-        printf("score: %i\n", score);
 
         if (score == EXACT * wordsize)
         {
