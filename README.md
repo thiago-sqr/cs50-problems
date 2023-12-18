@@ -44,6 +44,6 @@ Name: CS50’s Introduction to Computer Science
 
 ## Academic Honesty
 
-I strictly adhere to the course's academic honesty policy, emphasizing the importance of individual effort and integrity. All solutions and code in this repository reflect my own work and understanding.
+I strictly adhere to the course's academic honesty policy, emphasizing the importance of individual effort and integrity. All problem solutions in this repository reflect my own work and understanding.
 
 For detailed information on the policy, please refer to the dedicated [academic honesty page](https://cs50.harvard.edu/x/2023/honesty/) on the CS50 website.
