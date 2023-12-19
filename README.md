@@ -31,7 +31,11 @@ Each subdirectory within the "labs" folder contains lab problems associated with
   - [no-vowels.c](/labs/lab2/no-vowels/no-vowels.c) (pp): Program that substitutes vowels in words, i.e., leetspeak.
   - [password.c](/labs/lab2/password/password.c) (pp): Password quality verification.
 - **lab3**
-  - [temps.c](/labs/lab3/temps/) (pp): Program to practice *O*(n²) sorting algorithms;
+  - [atoi.c](/labs/lab3/atoi/atoi.c) (pp): Program that converts a string to an integer recursively.
+  - [temps.c](/labs/lab3/temps/) (pp): Program to practice *O*(n²) sorting algorithms.
+  - [max.c](/labs/lab3/max/max.c) (pp): A linear search algorithm to find the max value.
+  - [snackbar.c](/labs/lab3/snackbar/snackbar.c) (pp): Program that searches for items in the menu and calculates the total price.
+  - ( . . . )
 
 ## Course Info:
 Name: CS50’s Introduction to Computer Science
