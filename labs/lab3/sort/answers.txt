@@ -1,0 +1,36 @@
+sort1 uses: Bubble Sort
+
+How do you know?:
+
+Sort1 has a high reversed-case time and a relatively low sorted case, suggesting it might be bubble sort
+Sort2 has consistent low times across all cases, suggesting it might not be bubble sort
+Sort3 has moderate times across all cases, making it less likely to be bubble sort
+
+sort2 uses: Merge Sort
+
+How do you know?:
+
+Sort1 and Sort3 have higher reversed case times, making it possible candidates for selection sort
+Sort2 has consistently low times, making it less likely to be selection sort
+
+sort3 uses: Selection Sort
+
+How do you know?:
+
+Sort2 has consistent low times across all cases, which is characteristic of merge sort
+Sort1 and Sort3 have more variable times, making them less likely to be merge sort
+
+
+/* ==== Notes for myself ==== */
+
+Bubble sort has a worst-case time complexity of O(n^2)
+Best case: O(n) (when the list is already sorted)
+Bubble sort's performance is highly dependent on the initial order of the elements
+
+Selection sort also has a worst-case time complexity of O(n^2)
+Best case: O(n^2) (since it doesn't benefit from pre-sorted input)
+Like bubble sort, selection sort's performance is influenced by the initial order of the elements
+
+Merge sort has a consistent time complexity of O(n log n) regardless of the initial order
+Best case: O(n log n)
+Merge sort is known for its stability and efficiency
