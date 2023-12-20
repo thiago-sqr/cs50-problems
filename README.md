@@ -16,7 +16,9 @@ Solving the problem sets proposed by Harvard University's CS50x course (2023): I
 - [substitution.c](/pset2/substitution/substitution.c) : Implementation of the substitution cipher.
 - [wordle.c](/pset2/wordle/wordle.c) : Word-guessing game, similar to the famous [Wordle](https://www.nytimes.com/games/wordle/index.html).
 
-### ( . . . )
+### pset3: Algorithms
+- [plurality.c](/pset3/plurality/plurality.c) : Program that simulates a plurality vote election.
+- ( . . . )
 
 ### labs
 Each subdirectory within the "labs" folder contains lab problems associated with each week of the CS50 course, along with "practice problems" (pp), which are optional exercises.
@@ -31,11 +33,12 @@ Each subdirectory within the "labs" folder contains lab problems associated with
   - [no-vowels.c](/labs/lab2/no-vowels/no-vowels.c) (pp): Program that substitutes vowels in words, i.e., leetspeak.
   - [password.c](/labs/lab2/password/password.c) (pp): Password quality verification.
 - **lab3**
+  - [sort](/labs/lab3/sort) (lab): Exercise to determine which sorting algorithm is being used.
   - [atoi.c](/labs/lab3/atoi/atoi.c) (pp): Program that converts a string to an integer recursively.
   - [temps.c](/labs/lab3/temps/) (pp): Program to practice *O*(n²) sorting algorithms.
   - [max.c](/labs/lab3/max/max.c) (pp): A linear search algorithm to find the max value.
   - [snackbar.c](/labs/lab3/snackbar/snackbar.c) (pp): Program that searches for items in the menu and calculates the total price.
-  - ( . . . )
+- ( . . . )
 
 ## Course Info:
 Name: CS50’s Introduction to Computer Science
