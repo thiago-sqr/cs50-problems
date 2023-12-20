@@ -2,6 +2,8 @@
 
 You have three pre-compiled C programs: **sort1**, **sort2**, and **sort3**. Each program implements a different sorting algorithm—selection sort, bubble sort, or merge sort (in unspecified order). Your goal is to determine the sorting algorithm used by each program.
 
+[Instructions and files for LAB3 - SORT](https://cs50.harvard.edu/x/2023/labs/3/#instructions)
+
 ### Summary
 
 1. **File Types:**
