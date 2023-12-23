@@ -18,6 +18,7 @@ Solving the problem sets proposed by Harvard University's CS50x course (2023): I
 
 ### pset3: Algorithms
 - [plurality.c](/pset3/plurality/plurality.c) : Program that simulates a plurality vote election.
+- [runoff.c](/pset3/runoff/runoff.c) : Program that simulates a runoff vote election.
 - ( . . . )
 
 ### labs
