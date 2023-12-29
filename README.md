@@ -21,7 +21,7 @@ Solving the problem sets proposed by Harvard University's CS50x course (2023): I
 - [runoff.c](/pset3/runoff/runoff.c) : Program that simulates a runoff vote election.
 - [tideman.c](/pset3/tideman/tideman.c) : Program that simulates a tideman vote election.
 
-### pset3: Memory
+### pset4: Memory
 - ( . . . )
 
 ### labs
