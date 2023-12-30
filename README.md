@@ -21,9 +21,6 @@ Solving the problem sets proposed by Harvard University's CS50x course (2023): I
 - [runoff.c](/pset3/runoff/runoff.c) : Program that simulates a runoff vote election.
 - [tideman.c](/pset3/tideman/tideman.c) : Program that simulates a tideman vote election.
 
-### pset4: Memory
-- ( . . . )
-
 ### labs
 Each subdirectory within the "labs" folder contains lab problems associated with each week of the CS50 course, along with "practice problems" (pp), which are optional exercises.
 - **lab1**
@@ -43,7 +40,7 @@ Each subdirectory within the "labs" folder contains lab problems associated with
   - [max.c](/labs/lab3/max/max.c) (pp): A linear search algorithm to find the max value.
   - [snackbar.c](/labs/lab3/snackbar/snackbar.c) (pp): Program that searches for items in the menu and calculates the total price.
 - **lab4**
-  - [bottomup.c](/labs/lab4/bottomup/bottomup.c)(pp): Program that copies and inverts a BMP image file
+  - [bottomup.c](/labs/lab4/bottomup/bottomup.c) (pp): Program that copies and inverts a BMP image file
   - ( . . . )
 
 ## Course Info:
