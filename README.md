@@ -42,7 +42,9 @@ Each subdirectory within the "labs" folder contains lab problems associated with
   - [temps.c](/labs/lab3/temps/) (pp): Program to practice *O*(n²) sorting algorithms.
   - [max.c](/labs/lab3/max/max.c) (pp): A linear search algorithm to find the max value.
   - [snackbar.c](/labs/lab3/snackbar/snackbar.c) (pp): Program that searches for items in the menu and calculates the total price.
-- ( . . . )
+- **lab4**
+  - [bottomup.c](/labs/lab4/bottomup/bottomup.c)(pp): Program that copies and inverts a BMP image file
+  - ( . . . )
 
 ## Course Info:
 Name: CS50’s Introduction to Computer Science
