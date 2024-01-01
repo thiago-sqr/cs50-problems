@@ -76,7 +76,6 @@ int main(int argc, char *argv[])
             // Read RGB triple from infile
             fread(&triple, sizeof(RGBTRIPLE), 1, inptr);
 
-
             // Write inverted RGB triple to outfile
             fwrite(&triple, sizeof(RGBTRIPLE), 1, outptr);
         }
