@@ -1,5 +1,5 @@
 # CS50-problems
-Solving the problem sets proposed by Harvard University's CS50x course (2023): Introduction to Computer Science.
+Solving the problem sets proposed by Harvard University's CS50x course (2024): Introduction to Computer Science.
 
 ## Repository Structure
 
@@ -10,37 +10,37 @@ Solving the problem sets proposed by Harvard University's CS50x course (2023): I
 - [credit.c](/pset1/credit/credit.c) : Program that identifies the credit card issuer.
 
 ### pset2: Arrays
+- [scrabble.c](/pset2/scrabble/scrabble.c) : Word-scoring game.
 - [readability.c](/pset2/readability/readability.c) : Implementation of the Coleman-Liau index to gauge the understandability of a text.
-- [bulbs.c](/pset2/bulbs/bulbs.c) : Encoding messages in binary using sequences of bulbs.
+- [bulbs.c](/pset2/bulbs/bulbs.c) (2023): Encoding messages in binary using sequences of bulbs.
 - [caesar.c](/pset2/caesar/caesar.c) : Implementation of the Caesar cipher algorithm.
 - [substitution.c](/pset2/substitution/substitution.c) : Implementation of the substitution cipher.
-- [wordle.c](/pset2/wordle/wordle.c) : Word-guessing game, similar to the famous [Wordle](https://www.nytimes.com/games/wordle/index.html).
+- [wordle.c](/pset2/wordle/wordle.c) (2023): Word-guessing game, similar to the famous [Wordle](https://www.nytimes.com/games/wordle/index.html).
 
 ### pset3: Algorithms
+- [sort](/pset3/sort) : Exercise to determine which sorting algorithm is being used.
 - [plurality.c](/pset3/plurality/plurality.c) : Program that simulates a plurality vote election.
 - [runoff.c](/pset3/runoff/runoff.c) : Program that simulates a runoff vote election.
 - [tideman.c](/pset3/tideman/tideman.c) : Program that simulates a tideman vote election.
 
-### labs
-Each subdirectory within the "labs" folder contains lab problems associated with each week of the CS50 course, along with "practice problems" (pp), which are optional exercises.
-- **lab1**
-  - [population.c](/labs/lab1/population/population.c) (lab): Program that calculates the population growth time.
-  - [debug.c]() (pp): For becoming familiar with C syntax and debugging programs
-  - [half.c](/labs/lab1/half/half.c) (pp): Program that calculates the restaurant bill and splits it for two people.
-  - [prime.c](/labs/lab1/prime/prime.c) (pp): Implementation of prime number counting.
-- **lab2**
-  - [scrabble.c](/labs/lab2/scrabble/scrabble.c) (lab): Word-scoring game.
-  - [hours.c](/labs/lab2/hours/hours.c) (pp): Program that calculates total or average hours attended.
-  - [no-vowels.c](/labs/lab2/no-vowels/no-vowels.c) (pp): Program that substitutes vowels in words, i.e., leetspeak.
-  - [password.c](/labs/lab2/password/password.c) (pp): Password quality verification.
-- **lab3**
-  - [sort](/labs/lab3/sort) (lab): Exercise to determine which sorting algorithm is being used.
-  - [atoi.c](/labs/lab3/atoi/atoi.c) (pp): Program that converts a string to an integer recursively.
-  - [temps.c](/labs/lab3/temps/) (pp): Program to practice *O*(n²) sorting algorithms.
-  - [max.c](/labs/lab3/max/max.c) (pp): A linear search algorithm to find the max value.
-  - [snackbar.c](/labs/lab3/snackbar/snackbar.c) (pp): Program that searches for items in the menu and calculates the total price.
-- **lab4**
-  - [bottomup.c](/labs/lab4/bottomup/bottomup.c) (pp): Program that copies and inverts a BMP image file
+### practice-problems
+These are additional problems after completing the problem set for a week. These exercises aren't warm-ups; in fact, they often pose a greater challenge than the problems in the main problem set.
+- **pbm1**
+  - [population.c](/practice-problems/pbm1/population/population.c) (2023): Program that calculates the population growth time.
+  - [debug.c](/practice-problems/pbm1/debug/debug.c) : For becoming familiar with C syntax and debugging programs
+  - [half.c](/practice-problems/pbm1/half/half.c) : Program that calculates the restaurant bill and splits it for two people.
+  - [prime.c](/practice-problems/pbm1/prime/prime.c) : Implementation of prime number counting.
+- **pbm2**
+  - [hours.c](/practice-problems/pbm2/hours/hours.c) : Program that calculates total or average hours attended.
+  - [no-vowels.c](/practice-problems/pbm2/no-vowels/no-vowels.c) : Program that substitutes vowels in words, i.e., leetspeak.
+  - [password.c](/practice-problems/pbm2/password/password.c) : Password quality verification.
+- **pbm3**
+  - [atoi.c](/practice-problems/pbm3/atoi/atoi.c) : Program that converts a string to an integer recursively.
+  - [temps.c](/practice-problems/pbm3/temps/) : Program to practice *O*(n²) sorting algorithms.
+  - [max.c](/practice-problems/pbm3/max/max.c) : A linear search algorithm to find the max value.
+  - [snackbar.c](/practice-problems/pbm3/snackbar/snackbar.c) : Program that searches for items in the menu and calculates the total price.
+- **pbm4**
+  - [bottomup.c](/practice-problems/pbm4/bottomup/bottomup.c) : Program that copies and inverts a BMP image file
   - ( . . . )
 
 ## Course Info:
