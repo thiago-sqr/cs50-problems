@@ -12,10 +12,10 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
 ### pset2: Arrays
 - [scrabble.c](/pset2/scrabble/scrabble.c) : Word-scoring game.
 - [readability.c](/pset2/readability/readability.c) : Implementation of the Coleman-Liau index to gauge the understandability of a text.
-- [bulbs.c](/pset2/bulbs/bulbs.c) (2023): Encoding messages in binary using sequences of bulbs.
+- (2023) [bulbs.c](/pset2/bulbs/bulbs.c) : Encoding messages in binary using sequences of bulbs.
 - [caesar.c](/pset2/caesar/caesar.c) : Implementation of the Caesar cipher algorithm.
 - [substitution.c](/pset2/substitution/substitution.c) : Implementation of the substitution cipher.
-- [wordle.c](/pset2/wordle/wordle.c) (2023): Word-guessing game, similar to the famous [Wordle](https://www.nytimes.com/games/wordle/index.html).
+- (2023) [wordle.c](/pset2/wordle/wordle.c) : Word-guessing game, similar to the famous [Wordle](https://www.nytimes.com/games/wordle/index.html).
 
 ### pset3: Algorithms
 - [sort](/pset3/sort) : Exercise to determine which sorting algorithm is being used.
@@ -23,10 +23,14 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
 - [runoff.c](/pset3/runoff/runoff.c) : Program that simulates a runoff vote election.
 - [tideman.c](/pset3/tideman/tideman.c) : Program that simulates a tideman vote election.
 
+### pset4: Memory
+- [volume.c](/pset4/volume/volume.c) : Program that increases/decreases the volume of a .wav audio file.
+- ( . . . )
+
 ### practice-problems
 These are additional problems after completing the problem set for a week. These exercises aren't warm-ups; in fact, they often pose a greater challenge than the problems in the main problem set.
 - **pbm1**
-  - [population.c](/practice-problems/pbm1/population/population.c) (2023): Program that calculates the population growth time.
+  - (2023) [population.c](/practice-problems/pbm1/population/population.c) : Program that calculates the population growth time.
   - [debug.c](/practice-problems/pbm1/debug/debug.c) : For becoming familiar with C syntax and debugging programs
   - [half.c](/practice-problems/pbm1/half/half.c) : Program that calculates the restaurant bill and splits it for two people.
   - [prime.c](/practice-problems/pbm1/prime/prime.c) : Implementation of prime number counting.
