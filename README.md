@@ -52,7 +52,7 @@ These are additional problems after completing the problem set for a week. These
 ## Course Info:
 Name: CS50’s Introduction to Computer Science
 
-[Course Website](https://cs50.harvard.edu/x/2023/)
+[Course Website](https://cs50.harvard.edu/x/2024/)
 
 [CS50 Docs](https://cs50.readthedocs.io/)
 
