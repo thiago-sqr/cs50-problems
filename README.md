@@ -26,6 +26,7 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
 ### pset4: Memory
 - [volume.c](/pset4/volume/volume.c) : Program that increases/decreases the volume of a .wav audio file.
 - [filter-less](/pset4/filter/filter-less) : Program that applies a filter on a BMP image file (grayscale, sepia, reflection or blur)
+- [filter-more](/pset4/filter/filter-more) : Program that applies a filter on a BMP image file (grayscale, reflection, blur or edges)
 - ( . . . )
 
 ### practice-problems
