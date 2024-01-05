@@ -40,6 +40,7 @@ int main(int argc, char *argv[])
             if (image == NULL)
             {
                 printf("Could not create file %s", filename);
+                return 2;
             }
 
             fwrite(&buffer, BLOCK, 1, image);
