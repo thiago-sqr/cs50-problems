@@ -25,8 +25,11 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
 
 ### pset4: Memory
 - [volume.c](/pset4/volume/volume.c) : Program that increases/decreases the volume of a .wav audio file.
-- [filter-less](/pset4/filter/filter-less) : Program that applies a filter on a BMP image file (grayscale, sepia, reflection or blur)
-- [filter-more](/pset4/filter/filter-more) : Program that applies a filter on a BMP image file (grayscale, reflection, blur or edges)
+- [filter-less](/pset4/filter/filter-less) : Program that applies a filter on a BMP image file (grayscale, sepia, reflection or blur).
+- [filter-more](/pset4/filter/filter-more) : Program that applies a filter on a BMP image file (grayscale, reflection, blur or edges).
+- [recover.c](/pset4/recover/recover.c) : Recovering JPEGs from a memory card.
+
+### pset5: Data Structures
 - ( . . . )
 
 ### practice-problems
@@ -62,4 +65,4 @@ Name: CS50’s Introduction to Computer Science
 
 I strictly adhere to the course's academic honesty policy, emphasizing the importance of individual effort and integrity. All problem solutions in this repository reflect my own work and understanding.
 
-For detailed information on the policy, please refer to the dedicated [academic honesty page](https://cs50.harvard.edu/x/2023/honesty/) on the CS50 website.
+For detailed information on the policy, please refer to the dedicated [academic honesty page](https://cs50.harvard.edu/x/2024/honesty/) on the CS50 website.
