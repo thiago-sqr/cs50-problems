@@ -50,7 +50,7 @@ These are additional problems after completing the problem set for a week. These
   - [snackbar.c](/practice-problems/pbm3/snackbar/snackbar.c) : Program that searches for items in the menu and calculates the total price.
 - **pbm4**
   - [bottomup.c](/practice-problems/pbm4/bottomup/bottomup.c) : Program that copies and inverts a BMP image file
-  - ( . . . )
+  - [license.c](/practice-problems/pbm4/license/license.c) : Eor practice working with files and file pointers.
 
 ## Course Info:
 Name: CS50’s Introduction to Computer Science
