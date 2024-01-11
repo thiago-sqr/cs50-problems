@@ -30,6 +30,7 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
 - [recover.c](/pset4/recover/recover.c) : Recovering JPEGs from a memory card.
 
 ### pset5: Data Structures
+- [inheritance.c](/pset5/inheritance/inheritance.c) : Program that creates a family of a specified generation size and assigns blood type alleles to each family member.
 - ( . . . )
 
 ### practice-problems
