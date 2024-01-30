@@ -52,6 +52,8 @@ These are additional problems after completing the problem set for a week. These
 - **pbm4**
   - [bottomup.c](/practice-problems/pbm4/bottomup/bottomup.c) : Program that copies and inverts a BMP image file
   - [license.c](/practice-problems/pbm4/license/license.c) : For practice working with files and file pointers.
+- **pbm5**
+  - [trie.c](/practice-problems/pbm4/trie/trie.c) : A program that searches for dog names in a text file using tries.
 
 ## Course Info:
 Name: CS50’s Introduction to Computer Science
