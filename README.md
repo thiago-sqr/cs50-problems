@@ -31,7 +31,7 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
 
 ### pset5: Data Structures
 - [inheritance.c](/pset5/inheritance/inheritance.c) : Program that creates a family of a specified generation size and assigns blood type alleles to each family member.
-- ( . . . )
+- [speller](/pset5/speller/) : Program that spell-check a text file using a hash table.
 
 ### practice-problems
 These are additional problems after completing the problem set for a week. These exercises aren't warm-ups; in fact, they often pose a greater challenge than the problems in the main problem set.
