@@ -5,7 +5,7 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
 
 ### pset1: C
 - [hello.c](/pset1/hello/hello.c) : Program that prints "hello" and your name.
-- [mario.c](/pset1/mario) : Implementations (less and more complex) of the Mario pyramid.
+- [mario](/pset1/mario) : Implementations (less and more complex) of the Mario pyramid.
 - [cash.c](/pset1/cash/cash.c) : Program that calculates the number of coins for change.
 - [credit.c](/pset1/credit/credit.c) : Program that identifies the credit card issuer.
 
@@ -33,6 +33,11 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
 - [inheritance.c](/pset5/inheritance/inheritance.c) : Program that creates a family of a specified generation size and assigns blood type alleles to each family member.
 - [speller](/pset5/speller/) : Program that spell-check a text file using a hash table.
 
+### pset6: Python
+- **sentimental**: Solving some problems from previous weeks in Python.
+    - [hello.py](/pset6/sentimental/hello/hello.py) , [mario](/pset6/sentimental/mario) , [credit.py](/pset6/sentimental/credit/credit.py) , [readability.py](/pset6/sentimental/readability/readability.py)
+- ( . . . )
+
 ### practice-problems
 These are additional problems after completing the problem set for a week. These exercises aren't warm-ups; in fact, they often pose a greater challenge than the problems in the main problem set.
 - **pbm1**
@@ -54,6 +59,9 @@ These are additional problems after completing the problem set for a week. These
   - [license.c](/practice-problems/pbm4/license/license.c) : For practice working with files and file pointers.
 - **pbm5**
   - [trie.c](/practice-problems/pbm5/trie/trie.c) : A program that searches for dog names in a text file using tries.
+- **pbm6**
+  - [jar.py](/practice-problems/pbm6/jar/jar.py) : Simple cookie jar implementation using OOP in Python.
+  - ( . . . )
 
 ## Course Info:
 Name: CS50’s Introduction to Computer Science
