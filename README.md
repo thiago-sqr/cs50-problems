@@ -38,6 +38,10 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
     - [hello.py](/pset6/sentimental/hello/hello.py) , [mario](/pset6/sentimental/mario) , [credit.py](/pset6/sentimental/credit/credit.py) , [readability.py](/pset6/sentimental/readability/readability.py)
 - [dna.py](/pset6/dna/dna.py) : Program that identifies the owner of a DNA sequence using a database of the longest STR runs.
 
+### pset7: SQL
+- [songs](/pset7/songs) : Simple SQL queries to answer questions about a Spotify database.
+- ( . . . )
+
 ### practice-problems
 These are additional problems after completing the problem set for a week. These exercises aren't warm-ups; in fact, they often pose a greater challenge than the problems in the main problem set.
 - **pbm1**
