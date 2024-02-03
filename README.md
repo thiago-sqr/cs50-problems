@@ -40,6 +40,7 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
 
 ### pset7: SQL
 - [songs](/pset7/songs) : Simple SQL queries to answer questions about a Spotify database.
+- [movies](/pset7/movies) : SQL queries to answer questions about an IMDb database of movies.
 - ( . . . )
 
 ### practice-problems
