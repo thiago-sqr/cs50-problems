@@ -43,6 +43,9 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
 - [movies](/pset7/movies) : SQL queries to answer questions about an IMDb database of movies.
 - [fiftyville](/pset7/fiftyville) : Solving a theft mystery using SQL to query the database of Fiftyville Town.
 
+### pset8: HTML, CSS, JavaScript
+- ( . . . )
+
 ### practice-problems
 These are additional problems after completing the problem set for a week. These exercises aren't warm-ups; in fact, they often pose a greater challenge than the problems in the main problem set.
 - **pbm1**
@@ -67,6 +70,8 @@ These are additional problems after completing the problem set for a week. These
 - **pbm6**
   - [jar.py](/practice-problems/pbm6/jar/jar.py) : Simple cookie jar implementation using OOP in Python.
   - ( . . . )
+- **pbm7**
+  - [Hall of Prophecy](/practice-problems/pbm7/prophecy) : Refactoring a database for Hogwarts students and houses.
 
 ## Course Info:
 Name: CS50’s Introduction to Computer Science
