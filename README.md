@@ -41,7 +41,7 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
 ### pset7: SQL
 - [songs](/pset7/songs) : Simple SQL queries to answer questions about a Spotify database.
 - [movies](/pset7/movies) : SQL queries to answer questions about an IMDb database of movies.
-- ( . . . )
+- [fiftyville](/pset7/fiftyville) : Solving a theft mystery using SQL to query the database of Fiftyville Town.
 
 ### practice-problems
 These are additional problems after completing the problem set for a week. These exercises aren't warm-ups; in fact, they often pose a greater challenge than the problems in the main problem set.
