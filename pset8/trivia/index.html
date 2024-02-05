@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            document.addEventListener('DOMContentLoaded', function() {
+                
+                let correct = document.querySelector('.correct');
+                correct.addEventListener('click', function() {
+                    correct.style.backgroundColor = 'MediumSeaGreen';
+                    document.querySelector('#part1_result').innerHTML = "Correct!";
+                });
+
+                let incorrect = document.querySelectorAll('.incorrect');
+                for (let i = 0; i < incorrect.length; i++) {
+                    incorrect[i].addEventListener('click', function() {
+                        incorrect[i].style.backgroundColor = 'Tomato';
+                        document.querySelector('#part1_result').innerHTML = "Incorrect!";
+                    });
+                }
+
+                let answer = document.querySelector('#submit');
+                answer.addEventListener('click', function() {
+                    city = document.querySelector('#townName').value;
+                    city = city.toLowerCase();
+                    if (city === 'nuvema' || city === 'nuvema town') {
+                        document.querySelector('#part2_result').innerHTML = "Correct!";
+                        document.querySelector('#townName').style.backgroundColor = 'MediumSeaGreen';
+                    }
+                    else {
+                        document.querySelector('#part2_result').innerHTML = "Incorrect!";
+                        document.querySelector('#townName').style.backgroundColor = 'Tomato';
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>
+                    To which Pokemon does Eevee evolve when it levels up next to a Moss Stone?
+                </h3>
+                    <button class="incorrect"> Espeon </button>
+                    <button class="incorrect"> Umbreon </button>
+                    <button class="correct"  > Leafeon </button>
+                    <button class="incorrect"> Glaceon </button>
+                    <button class="incorrect"> Sylveon </button>
+                <p id="part1_result">
+                    <!--Result-->
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>
+                    What's the name of the protagonist's hometown in Pokemon Black and White 1?
+                </h3>
+                <form onsubmit="return false;">
+                    <input type="text" placeholder="Town Name" id="townName">
+                    <input type="submit" id="submit" value="Check">
+                </form>
+                <p id="part2_result">
+                    <!--Result-->
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
