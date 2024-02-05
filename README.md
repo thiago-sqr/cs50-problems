@@ -44,6 +44,7 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
 - [fiftyville](/pset7/fiftyville) : Solving a theft mystery using SQL to query the database of Fiftyville Town.
 
 ### pset8: HTML, CSS, JavaScript
+- [trivia](/pset8/trivia) : Webpage with trivia questions.
 - ( . . . )
 
 ### practice-problems
