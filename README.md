@@ -82,9 +82,3 @@ Name: CS50’s Introduction to Computer Science
 [CS50 Docs](https://cs50.readthedocs.io/)
 
 [CS50 Manual Pages for C](https://manual.cs50.io/)
-
-## Academic Honesty
-
-I strictly adhere to the course's academic honesty policy, emphasizing the importance of individual effort and integrity. All problem solutions in this repository reflect my own work and understanding.
-
-For detailed information on the policy, please refer to the dedicated [academic honesty page](https://cs50.harvard.edu/x/2024/honesty/) on the CS50 website.
