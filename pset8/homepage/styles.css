@@ -1,0 +1,50 @@
+.container img {
+    max-width:300px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    padding: 15px;
+}
+
+body {
+    background-color: Linen;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+#water {
+    background-color: #ccd9ff;
+}
+
+#fire {
+    background-color: #ffcccc;
+}
+
+#grass {
+    background-color: #ccffcc;
+}
+
+header {
+    background-color:  #333333;
+    color: Linen;
+    margin-bottom: 4rem;
+    padding: 2rem 1rem;
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 2rem 1rem;
+    font-style: italic;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    padding-left: 15px;
+}
