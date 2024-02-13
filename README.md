@@ -47,6 +47,9 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
 - [trivia](/pset8/trivia) : Webpage with trivia questions.
 - [homepage](/pset8/homepage) : Creating a homepage about my favorite pokemon.
 
+### pset9: Flask
+- ( . . . )
+
 ### practice-problems
 These are additional problems after completing the problem set for a week. These exercises aren't warm-ups; in fact, they often pose a greater challenge than the problems in the main problem set.
 
