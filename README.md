@@ -48,6 +48,7 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
 - [homepage](/pset8/homepage) : Creating a homepage about my favorite pokemon.
 
 ### pset9: Flask
+- [birthdays](/pset9/birthdays) : Web application to keep track of birthdays.
 - ( . . . )
 
 ### practice-problems
