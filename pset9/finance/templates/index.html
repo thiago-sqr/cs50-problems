@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <div class="mb-3">
+        <h5>Hi, {{ username }}</h5>
+    </div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="text-start">Symbol</th>
+                <th class="text-end">Shares</th>
+                <th class="text-end">Price</th>
+                <th class="text-end">Total</th>
+            </tr>
+        </thead>
+        {% for row in stocks %}
+            <tbody>
+                <td class="text-start">{{ row["symbol"] }}</td>
+                <td class="text-end">{{ row["shares"] }}</td>
+                <td class="text-end">{{ row["price"] }}</td>
+                <td class="text-end">{{ row["total"] }}</td>
+            </tbody>
+        {% endfor %}
+        <tfoot>
+            <tr>
+                <td class="border-0 fw-bold text-end" colspan="3">Cash</td>
+                <td class="border-0 text-end">{{ user_cash }}</td>
+            </tr>
+            <tr>
+                <td class="border-0 fw-bold text-end" colspan="3">Total</td>
+                <td class="border-0 text-end">{{ total_sum }}</td>
+            </tr>
+        </tfoot>
+    </table>
+{% endblock %}
