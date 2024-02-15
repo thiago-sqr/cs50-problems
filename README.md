@@ -49,7 +49,7 @@ Solving the problem sets proposed by Harvard University's CS50x course (2024): I
 
 ### pset9: Flask
 - [birthdays](/pset9/birthdays) : Web application to keep track of birthdays.
-- [finance](/pset9/fincance) : Website via which users can “buy” and “sell” stocks.
+- [finance](/pset9/finance) : Website via which users can “buy” and “sell” stocks.
 
 ### practice-problems
 These are additional problems after completing the problem set for a week. These exercises aren't warm-ups; in fact, they often pose a greater challenge than the problems in the main problem set.
