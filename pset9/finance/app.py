@@ -67,7 +67,6 @@ def index():
     return render_template("index.html", username=username, stocks=stocks, user_cash=usd(user_cash), total_sum=usd(total_sum))
 
 
-
 @app.route("/buy", methods=["GET", "POST"])
 @login_required
 def buy():
@@ -129,6 +128,9 @@ def buy():
             db.execute("INSERT INTO holdings (symbol_id, user_id, quantity) VALUES (?, ?, ?)", symbol_id, user_id, shares)
         else:
             db.execute("UPDATE holdings SET quantity = quantity + ?", shares)
+
+        # Tell the user that the share was succesfully bought
+        flash("Bought!")
 
         # Redirect user to home page
         return redirect("/")
@@ -323,6 +325,9 @@ def sell():
             "INSERT INTO transactions (user_id, symbol_id, type, shares, price, date) VALUES (?, ?, ?, ?, ?, ?)",
             user_id, symbol_id, "sell", shares, result["price"], date
         )
+
+        # Tell the user that the share was succesfully sold
+        flash("Sold!")
 
         # Redirect user to home page
         return redirect("/")
